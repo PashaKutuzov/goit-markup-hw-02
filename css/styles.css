@@ -17,6 +17,9 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.span-logo{
+   color: #2e2f42;
+}
 
 a:hover, a:focus {
   color: #404bbf;
@@ -54,10 +57,11 @@ a:hover, a:focus {
 
 
 
+
 .button:hover
 .button:focus{
 
-background-color: #404BBF
+background-color: #404BBF;
 
 }
 .button{
@@ -143,8 +147,9 @@ background-color: #F4F4FD;
         font-size: 36px;
         line-height: 111%;
         letter-spacing: 0.02em;
-      
+    text-align: center;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 .box-team{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -172,4 +177,7 @@ background-color: #F4F4FD;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+}
+.accent{
+    color: #f4f4fd
 }
