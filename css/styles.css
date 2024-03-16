@@ -1,0 +1,139 @@
+body   {
+font-family: Roboto, Raleway;
+background-color: white;
+color: #434455;
+ 
+ 
+
+
+}
+ a {text-decoration:none;}
+.logo-link {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+a:hover, a:focus {
+  color: #4D5AE5;
+}
+.menu-link{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.contacts-link{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.page-title {
+    background-color: #434455;
+}
+.title{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        
+        color: white;
+}
+.button{
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4D5AE5;
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: white;
+}
+
+
+.button{
+    cursor: pointer;
+}
+
+.title-info{
+   
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-work .info,
+.app-work{
+
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.team-block {
+    background-color: #F4F4FD ;
+}
+.team-title{
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        
+        color: #2E2F42;
+}
+.app-name .team-name{
+    
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        
+        color: #2E2F42;
+}
+.app-title{
+   
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+      
+        color: #2E2F42;
+}
+.box-team{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: white;
+}
+.box-portfolio{
+    background: white;
+}
+
+footer{
+    background: #2E2F42;
+}
+.footer-info{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+.logo-link-footer{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+}
