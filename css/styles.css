@@ -1,5 +1,5 @@
 body   {
-font-family: Roboto, Raleway;
+font-family: "Roboto", sans-serif;
 background-color: white;
 color: #434455;
  
@@ -9,17 +9,20 @@ color: #434455;
 }
  a {text-decoration:none;}
 .logo-link {
-
+font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
 }
 
 a:hover, a:focus {
-  color: #4D5AE5;
+  color: #404bbf;
+}
+.address-head {
+    font-style: normal;
 }
 .menu-link{
     font-weight: 500;
@@ -38,20 +41,29 @@ a:hover, a:focus {
 }
 
 .page-title {
-    background-color: #434455;
+    background-color: #2e2f42;
 }
 .title{
     font-weight: 700;
         font-size: 56px;
         line-height: 107%;
         letter-spacing: 0.02em;
-        
+        text-align: center;
         color: white;
+}
+
+
+
+.button:hover
+.button:focus{
+
+background-color: #404BBF
+
 }
 .button{
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
-    
+    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -73,11 +85,21 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         color: #2E2F42;
 }
 
-.team-work .info,
+.team-work{
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+ .info,
 .app-work{
 
 font-size: 16px;
 line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -90,10 +112,23 @@ color: #434455;
         font-size: 36px;
         line-height: 111%;
         letter-spacing: 0.02em;
-        
+        text-align: center;
         color: #2E2F42;
+        text-transform: capitalize;
 }
-.app-name .team-name{
+.team-section{
+background-color: #F4F4FD;
+}
+ .team-name{
+    
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2E2F42;
+ }
+.app-name {
     
         font-weight: 500;
         font-size: 20px;
@@ -119,7 +154,7 @@ color: #434455;
     background: white;
 }
 
-footer{
+.footer{
     background: #2E2F42;
 }
 .footer-info{
@@ -130,10 +165,11 @@ footer{
         color: #F4F4FD;
 }
 .logo-link-footer{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: #4d5ae5;
 }
