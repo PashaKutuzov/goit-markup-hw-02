@@ -3,7 +3,7 @@ font-family: "Roboto", sans-serif;
 background-color: white;
 color: #434455;
  
- 
+/*header*/ 
 
 
 }
@@ -42,6 +42,8 @@ a:hover, a:focus {
         letter-spacing: 0.02em;
         color: #434455;
 }
+/*main-content*/
+
 
 .page-title {
     background-color: #2e2f42;
@@ -55,17 +57,13 @@ a:hover, a:focus {
         color: white;
 }
 
-
-
-
 .button:hover{
     background-color: #404BBF;
 }
 .button:focus{
-
 background-color: #404BBF;
-
 }
+
 .button{
 
     background: #4D5AE5;
@@ -76,11 +74,12 @@ background-color: #404BBF;
         letter-spacing: 0.04em;
         color: white;
 }
-
-
 .button{
     cursor: pointer;
 }
+
+
+/*info-section*/
 
 .title-info{
    
@@ -91,16 +90,8 @@ background-color: #404BBF;
         color: #2E2F42;
 }
 
-.team-work{
-    
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-}
- .info,
+
+.info,
 .app-work{
 
 font-size: 16px;
@@ -109,8 +100,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.team-block {
-    background-color: #F4F4FD ;
+
+/*team-section*/
+.team-section{
+background-color: #F4F4FD;
 }
 .team-title{
     
@@ -122,10 +115,12 @@ color: #434455;
         color: #2E2F42;
         text-transform: capitalize;
 }
-.team-section{
-background-color: #F4F4FD;
+
+.box-team{
+    
+        background: white;
 }
- .team-name{
+.team-name{
     
         font-weight: 500;
         font-size: 20px;
@@ -134,15 +129,22 @@ background-color: #F4F4FD;
         text-align: center;
         color: #2E2F42;
  }
-.app-name {
+.team-work{
     
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
         letter-spacing: 0.02em;
-        
-        color: #2E2F42;
+        text-align: center;
+        color: #434455;
 }
+ 
+.team-block {
+    background-color: #F4F4FD ;
+}
+
+/*portfolio-section*/
+
 .app-title{
    
         font-weight: 700;
@@ -153,14 +155,23 @@ background-color: #F4F4FD;
         color: #2E2F42;
         text-transform: capitalize;
 }
-.box-team{
-    
-        background: white;
-}
 .box-portfolio{
     background: white;
 }
+ 
+.app-name {
+    
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        
+        color: #2E2F42;
+}
+/*"app-name" -->team-section */
 
+
+/*footer*/
 .footer{
     background: #2E2F42;
 }
